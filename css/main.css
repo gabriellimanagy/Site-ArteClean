@@ -1,0 +1,152 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fcf4f2;
+    overflow-x: hidden;
+}
+ul {
+    padding: 0px!important;
+}
+.header-1 {
+    width: 100%;
+    background-color: #ecb4ab ;
+    height: 60px;
+    margin: 0 auto;
+}
+.header-2 {
+    background-color: #fcf4f2;
+    width: 100%;
+    margin: 0 auto;
+    float: right;
+}
+.menu-urls {
+    border-bottom: 3px solid #fce8e3;
+    border-top: 3px solid #fce8e3;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #ecb4ab;
+    height: 60px;
+}
+
+main {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    padding: 5px;
+    float: left;
+    width: 20%;
+}
+
+.redes-sociais ul li{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.redes-sociais {
+    width: fit-content;
+    margin-right: 5%;
+    float: right;
+    height: 60px;
+    list-style: none;
+}
+    
+.menu {
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: lightcoral;
+    margin-left: 15px;
+    height: 17px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 15px;
+    text-transform: uppercase; 
+}
+
+.menu ul li a:hover {
+    color: rgb(206, 108, 108);   
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid rgb(206, 108, 108) ;
+
+}
+.busca {
+    width: fit-content;
+    margin-left: 3%;
+    float: right;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.busca input{
+    margin-top: 15px;
+    border-color: #f5d0dd;
+    border-style: solid;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10%;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.slider-principal {
+    overflow-x: hidden;
+}
+
+button.slick-prev, button.slick-next {
+    font-size: 0px;
+    border: none;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    background-color: transparent;
+}
+button.slick-prev {
+    background-image: url("../img/backpurple.png");
+    left: 5%;
+}
+button.slick-next {
+    background-image: url("../img/forwardpurple.png");
+    right: 5%;
+}
+
+button.slick-next:focus, button.slick-prev:focus {
+    outline: none;
+}
+
+.col-3 {
+    font-family: cursive;
+    width: 33.3%;
+    padding-top: 5%;
+    float: left;
+    text-align: center;
+}
+
+.rodape {
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ecb4ab;
+}
